@@ -1,0 +1,1 @@
+This is a slide deck I presented Spring semester 2021 for a club's onboarding process. I used this deck to present the results of my data analysis on a mock data set of customer histories for a credit card company.

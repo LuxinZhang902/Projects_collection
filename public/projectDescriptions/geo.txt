@@ -1,0 +1,1 @@
+Built an AI-enabled GeoGuessr clone as part of team project for ECE 489: System Design for Machine Learning class (See Demo). Responsible for most of front-end and game logic implemented using React JS, Google Maps API, and Tailwind. (See GitHub)

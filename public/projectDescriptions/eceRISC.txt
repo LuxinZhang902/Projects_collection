@@ -1,0 +1,1 @@
+Built a board game similar to Risk as part of several-week team project for ECE 651: Software Engineering (See Demo). Game allows multiplayer through remote server, UI implemented in JavaFX. (See GitLab)

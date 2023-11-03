@@ -1,0 +1,1 @@
+Conducted customer segmentation (See Presentation), recency, frequency, monetary (RFM) analysis on Online Retail II Dataset. Determined factors strongly asssociated with high-value customers. Built XGBoost model with 90.8% accuracy, 0.97 AUC, to predict whether customer will make purchase in next 90 days.

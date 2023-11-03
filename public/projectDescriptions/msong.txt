@@ -1,0 +1,1 @@
+This is a song I made in MATLAB for an ECE 280 (Signals and Systems) class project. I recreated the first 40 seconds of "The Swan" using only elementary signals and some signal processing

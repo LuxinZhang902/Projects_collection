@@ -1,0 +1,1 @@
+This is a portion of the final deliverable for my Spring 2021 DIIG (Duke Impact Investing Group) Project. That semester, I conducted data analysis for a housing startup along with a small team. These slides consist of my portion of the originally larger slide deck, and were presented to individuals within the startup. I completed all analysis shown in the slides.

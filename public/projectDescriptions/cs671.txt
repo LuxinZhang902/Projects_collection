@@ -1,0 +1,1 @@
+Built classifier (See Report) to predict employee attrition for CS 671 (Graduate Machine Learning) Kaggle Competition. Conducted feature engineering, exploratory data analysis via PCA, TSNE, UMAP algorithms, built XGBoost, AdaBoost, Logistic Regression models. Placed 6/145 in class of Ph.D., masters, and undergraduate students on public leaderboard by model accuracy.

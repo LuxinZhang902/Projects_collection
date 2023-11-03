@@ -1,0 +1,1 @@
+Built a series of maximum likelihood models to classify spoken Arabic Digits using Cepstral Coefficients (see slides in GitHub repository). Achieved 84% accuracy on test set using k-means maximum likelihood classifier, and 96% using a Gaussian Mixture Model. Submitted as a class project for ECE 480, Applied Probability for Statistical Learning.

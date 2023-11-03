@@ -1,0 +1,1 @@
+This is the result of my final project for my Introduction to Engineering Class. I worked in a team of four to solve a design problem given to us by an outside client. Our project was to design a soiling sensor, which detected the loss of efficiency of solar panels due to dust/accumulated debris.

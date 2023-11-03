@@ -1,0 +1,1 @@
+Designed and breadboarded an EOG (electrooculography) acquisition circuit as part of my independent study in Spring 2022. The circuit may be used to track gaze through a series of electrodes around subject's eyes. This design includes a driven right leg circuit in order to reduce the high common-mode interference of the EOG signals.

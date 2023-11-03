@@ -1,0 +1,1 @@
+Made a pong game with few additional features using JS, HTML Canvas, and CSS. See https://github.com/evanglas/Pong for repository.

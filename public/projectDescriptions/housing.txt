@@ -1,0 +1,1 @@
+Implemented a random forest and XGBoost model to predict housing prices using the Ames Housing Dataset. Completed data cleaning, feature engineering, model tuning to achieve top 10% of submitted work on Kaggle competition.
