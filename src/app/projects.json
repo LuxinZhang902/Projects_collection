@@ -1,9 +1,9 @@
 {
   "geo": {
-    "name": "AI GeoGuessr Clone",
-    "imagePath": "/projectImages/GeoGuessrClonePicture.jpg",
-    "tools": ["React", "Tailwind CSS", "Google Maps API"],
-    "description": "Built an AI-enabled GeoGuessr clone as part of team project for ECE 489: System Design for Machine Learning class (See Demo). Responsible for most of front-end and game logic implemented using React JS, Google Maps API, and Tailwind. (See GitHub)",
+    "name": "Elucidate - Duke Generative AI Hackathon",
+    "imagePath": "/projectImages/Generative_AI.jpg",
+    "tools": ["OpenAI API", "Chrome Developer API", "Node.js", "HTML", "CSS"],
+    "description": "Built a a functional Chrome Extension that can offer real values to those learning a new language and those with limited general reading proficiency.",
     "links": {
       "GitHub": "https://github.com/evanglas/GeoGuessr-Clone-With-AI/tree/main",
       "Demo": "https://drive.google.com/file/d/1nJUtxHqwGdcLQUADYnOQWtR3gd4PxiRX/view?usp=drive_link"
