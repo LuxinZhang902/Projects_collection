@@ -1,182 +1,136 @@
 {
-  "geo": {
+  "elucidate": {
     "name": "Elucidate - Duke Generative AI Hackathon",
     "imagePath": "/projectImages/Generative_AI.jpg",
     "tools": ["OpenAI API", "Chrome Developer API", "Node.js", "HTML", "CSS"],
     "description": "Built a a functional Chrome Extension that can offer real values to those learning a new language and those with limited general reading proficiency.",
     "links": {
-      "GitHub": "https://github.com/evanglas/GeoGuessr-Clone-With-AI/tree/main",
-      "Demo": "https://drive.google.com/file/d/1nJUtxHqwGdcLQUADYnOQWtR3gd4PxiRX/view?usp=drive_link"
+      "GitHub": "https://github.com/LuxinZhang902/Duke-Generative-AI-Hackathon",
+      "Demo": "https://drive.google.com/file/d/1HfHUEJCdbSzjYPXQirbS_wk1x7fzbgA_/view?usp=sharing"
     }
   },
-  "clustering": {
-    "name": "Interactive Clustering Simulator",
-    "imagePath": "/projectImages/Clustering.png",
-    "tools": ["HTML", "CSS", "JavaScript", "paper.js"],
-    "description": "Built an interactive clustering visualizer which implements k-means and DBSCAN (density-based spatial clustering of applications with noise). Used paper.js for canvas graphics.",
+  "xref": {
+    "name": "Xref - Cross Reference tool for Professor to find students",
+    "imagePath": "/projectImages/Xref.png",
+    "tools": ["Django", "React", "RestfulAPI", "SQLite Database", "Docker", "Nginx", "HTTPS", "Certbort"],
+    "description": "Led a team of 5 to build Xref, which is a cross reference platform that helps professors to track students easily, it allows uploading CSV files, manually adding student's information, and searching student based on information.",
     "links": {
-      "Simulator": "https://evanglas.github.io/cluster.html",
-      "GitHub": "https://github.com/evanglas/Clustering-Simulator"
+      "GitHub": "https://github.com/LuxinZhang902/Xref",
+      "Documentation": "https://github.com/LuxinZhang902/Xref/blob/main/README.md"
     }
   },
   "math585": {
-    "name": "Algorithmic Trading Project",
-    "imagePath": "/projectImages/math585.jpg",
-    "tools": ["Python", "PyPortfolioOpt", "QuantConnect"],
-    "description": "Submitted linked report as final group project for Math 585: Intro to Algorithmic Trading. As a team, developed an algorithm involving an options dispersion and pairs trading strategy with pairs selected through UMAP. I was largely responsible for capital allocation between strategies for which I determined optimal portfolio weights through regularized convex optimization via the PyPortfolioOpt library.",
+    "name": "MERN Stack ChatGPT Clone",
+    "imagePath": "/projectImages/GPT_Clone.png",
+    "tools": ["MongoDB", "Express.js", "React.js", "Node.js", "OpenAI API", "RestfulAPI", "Postman"],
+    "description": "Cloned ChatGPT that can summarize, rephrase, and translate the context.",
     "links": {
-      "Report": "https://github.com/evanglas/Algorithmic-Trading-Project/tree/main"
+      "GitHub": "https://github.com/LuxinZhang902/MERN-ChatGPT-clone"
     }
   },
   "eceRISC": {
-    "name": "ECE 651 Class Project: RISC",
-    "imagePath": "/projectImages/ece651game.jpg",
-    "tools": ["Java", "JavaFX", "Scene Builder"],
-    "description": "Built a board game similar to Risk as part of several-week team project for ECE 651: Software Engineering (See Demo). Game allows multiplayer through remote server, UI implemented in JavaFX. (See GitLab)",
+    "name": "RISC Game",
+    "imagePath": "/projectImages/RISC.png",
+    "tools": ["Java", "JavaFX", "Scene Builder", "CI/CD"],
+    "description": "Built a full-stack strategy game that allows multiple players play together.",
     "links": {
-      "GitLab": "https://gitlab.oit.duke.edu/jwp42/risc_group14",
-      "GitHub": "https://drive.google.com/file/d/1v2qvjdoRhNOPOjxebXKcNR7UT8VLpn3d/view?usp=drive_link"
+      "GitLab": "https://gitlab.oit.duke.edu/lz211/ece651_riscgame",
+      "GitHub": "https://drive.google.com/file/d/1_fmmPCbS2iGBF_B4opu26KP-pqDhdpGI/view?usp=sharing"
     }
   },
-  "cs671": {
-    "name": "CS 671 Kaggle Competition",
-    "imagePath": "/projectImages/PCA.jpg",
-    "tools": ["Python", "Pandas", "Matplotlib", "XGBoost", "scikit-learn"],
-    "description": "Built classifier (See Report) to predict employee attrition for CS 671 (Graduate Machine Learning) Kaggle Competition. Conducted feature engineering, exploratory data analysis via PCA, TSNE, UMAP algorithms, built XGBoost, AdaBoost, Logistic Regression models. Placed 6/145 in class of Ph.D., masters, and undergraduate students on public leaderboard by model accuracy.",
+  "battleship": {
+    "name": "Battleship Game",
+    "imagePath": "/projectImages/Battleship.png",
+    "tools": ["Java", "JavaFx", "Unit test", "S.O.L.I.D"],
+    "description": "Built a full-stack web application called Battleship Game, which allows two players and one server. Players can move, attack, and perform sonar scan.",
     "links": {
-      "Report": "https://github.com/evanglas/CS-671-Kaggle-Competition/blob/master/Evan%20Glas%20Writeup.pdf",
-      "Public Leaderboard": "https://www.kaggle.com/competitions/duke-cs671-fall-2022-kaggle-competition/leaderboard?tab=public"
+      "GitHub": "https://github.com/LuxinZhang902/Battleship_",
+      "Documentation": "https://drive.google.com/file/d/1TRrIZoRgbCauzZ8nuNSCBn52dcAQWAcM/view?usp=sharing"
     }
   },
-  "digit": {
-    "name": "Spoken Digit Classification",
-    "imagePath": "/projectImages/digitScatterPlots.jpg",
+  "travelingapp": {
+    "name": "Traveling App",
+    "imagePath": "/projectImages/travelingApp.png",
     "tools": ["Python", "Pandas", "Matplotlib", "scikit-learn"],
-    "description": "Built a series of maximum likelihood models to classify spoken Arabic Digits using Cepstral Coefficients (see slides in GitHub repository). Achieved 84% accuracy on test set using k-means maximum likelihood classifier, and 96% using a Gaussian Mixture Model. Submitted as a class project for ECE 480, Applied Probability for Statistical Learning.",
+    "description": "Built a traveling app that tested on IOS The advantage of this application is that it can give you all the recommendations for Restaurants, Attractions, and Hotels separately within one search each. (Search based on Google Map API)    ",
     "links": {
-      "GitHub": "https://github.com/evanglas/Spoken-Digit-Classification"
+      "GitHub": "https://github.com/LuxinZhang902/traveling-app/tree/main"
     }
   },
-  "customer2": {
-    "name": "Customer Analysis",
-    "imagePath": "/projectImages/RFMGraph.jpg",
-    "tools": ["Python", "Pandas", "scikit-learn", "Matplotlib"],
-    "description": "Conducted customer segmentation (See Presentation), recency, frequency, monetary (RFM) analysis on Online Retail II Dataset. Determined factors strongly associated with high-value customers. Built XGBoost model with 90.8% accuracy, 0.97 AUC, to predict whether customer will make purchase in next 90 days.",
+  "camera": {
+    "name": "Camera Algorithms - Intern at Vivo as a Software Engineer",
+    "imagePath": "/projectImages/vivo.png",
+    "tools": ["Python", "PyTorch", "HED", "Gauss Blur Algorithm", "Sobel Algorithm", "Laplacian Algorithm"],
+    "description": "This is my internship report at Vivo, where I was in a Software Engineer position and built the platform for camera's automation testing and implemented several carema algorithms.",
     "links": {
-      "Presentation": "https://github.com/evanglas/Online-Retail-II-Data-Set-Analysis/blob/master/Online%20Retail%20II%20Data%20Set%20Analysis.pdf",
-      "Dataset": "https://archive.ics.uci.edu/ml/datasets/Online+Retail+II"
+      "report": "https://drive.google.com/file/d/1c3RWb1FtcE1g08aj0RhVG1ZY_1RZggTo/view?usp=sharing"
     }
   },
-  "thisWebsite": {
-    "name": "This Website",
-    "imagePath": "/projectImages/thisWebsite.jpg",
+  "note": {
+    "name": "Simple Note",
+    "imagePath": "/projectImages/simpleNote.png",
+    "tools": ["Python", "Django", "React", "RestfulAPI"],
+    "description": "Developed a simple note full-stack web application using Django and React framework.",
+    "links": {
+      "GitHub": "https://github.com/LuxinZhang902/MyNotes_Django-React"
+    }
+  },
+  "RNN-stock": {
+    "name": "Neural Network to Predict Survival with Titantic",
+    "imagePath": "/projectImages/Titanic-NN.png",
     "tools": [
-      "JavaScript",
-      "React",
-      "Next.js",
-      "Framer Motion",
-      "CSS",
-      "HTML",
-      "Tailwind CSS"
+      "Python",
+      "Neural Network"
     ],
-    "description": "I recently rebult my personal website in Next.js and React. Feel free to check out the repo!",
+    "description": "Predicted the survival factors(passanger id, name, cabin, fare, etc.) of Titanic with Neural Network.",
     "links": {
-      "GitHub": "https://github.com/evanglas/evanglas.github.io/tree/v2"
+      "report": "https://drive.google.com/file/d/1x0zYzKgLPDJEAKzT0iQLyS-uBEluCNqB/view?usp=sharing"
     }
   },
-  "eog": {
-    "name": "EOG Independent Study",
-    "imagePath": "/projectImages/EOGBreadboardedCircuit.jpg",
-    "tools": ["Altium", "MATLAB", "Breadboarding"],
-    "description": "Designed and breadboarded an EOG (electrooculography) acquisition circuit as part of my independent study in Spring 2022. The circuit may be used to track gaze through a series of electrodes around subject's eyes. This design includes a driven right leg circuit in order to reduce the high common-mode interference of the EOG signals.",
+  "penalizedRegression": {
+    "name": "Penalized Regression with the Ames Housing Data",
+    "imagePath": "/projectImages/PenalizedRegression.png",
+    "tools": ["LASSO model", "Elastic Net model", "Ridge Regression model"],
+    "description": "Found the best tuning parameter values through cross-validation and display these values and make prediction on the testing data, report the RMSE and the Coefficient of Determination R2",
     "links": {
-      "Writeup": "https://evanglas.com/Evan%20Glas%20S22%20Bass%20Connections%20Deliverable.pdf"
+      "report": "https://drive.google.com/file/d/18hBR2wvSPN-QXUtgmls4AY6DzyPB9sW7/view?usp=sharing"
     }
   },
-  "swervePong": {
-    "name": "SwervePong Game",
-    "imagePath": "/projectImages/pongPic.png",
-    "tools": ["HTML", "CSS", "JavaScript", "HTML Canvas"],
-    "description": "Made a pong game with few additional features using JS, HTML Canvas, and CSS.",
+  "randomForest": {
+    "name": "Random Forest with the Spam Data",
+    "imagePath": "/projectImages/RandomForest.png",
+    "tools": ["R", "Random Forest"],
+    "description": "Split the data randomly into training (75%) and testing (25%), first build the best random forest to predict Spam e-mails using the training data, then use the out-of-bag (OOB) data to measure its performance, and then use this random forest model to predict whether each e-mail in the testing data is Spam or not.",
     "links": {
-      "Game": "https://evanglas.github.io/pong.html",
-      "GitHub": "https://github.com/evanglas/Pong"
+      "report": "https://drive.google.com/file/d/19uhQIrPTgGVEX4_BxmxbecVloiPwaaI5/view?usp=sharing"
     }
   },
-  "housing": {
-    "name": "Housing Price Prediction Model",
-    "imagePath": "/projectImages/HousingCorrelations.png",
-    "tools": ["Python", "Pandas", "Matplotlib", "XGBoost"],
-    "description": "Implemented a random forest and XGBoost model to predict housing prices using the Ames Housing Dataset. Completed data cleaning, feature engineering, model tuning to achieve top 10% of submitted work on Kaggle competition.",
+  "logisticRegression": {
+    "name": "Logistic Regression",
+    "imagePath": "/projectImages/LogisticRegression.png",
+    "tools": ["R"],
+    "description": "Used all the other 8 variables to predict the binary dependent variable 'diabetes' telling us whether the subject is diabetic or not (factor with 2 levels: neg and pos). You will split the data into 80% training and 20% testing.",
     "links": {
-      "GitHub": "https://github.com/evanglas/House-Price-Prediction/blob/master/eda.ipynb"
+      "report": "https://drive.google.com/file/d/1E2WJEu9ZE_TlU_Adz49lVwNozIML8VFA/view?usp=sharing"
     }
   },
-  "diig": {
-    "name": "DIIG Example Deliverable",
-    "imagePath": "/projectImages/diig.PNG",
+  "capCup": {
+    "name": "Ice-cream is Melting before Eating",
+    "imagePath": "/projectImages/capCup.png",
+    "tools": ["Human-centered Interaction", "Prototype", "Empathy Map"],
+    "description": "This is a prototype built in EST106 to solve the problem of ice cream is easy to melt. This idea won the most vote at EST106 class.",
+    "links": {
+      "video": "https://www.youtube.com/watch?v=2Yta2X54TDI",
+      "report": "https://drive.google.com/file/d/1XntQdWhuuAoFNN7FaE9fhZj-oMec7pId/view?usp=sharing"
+    }
+  },
+  "mobike": {
+    "name": "Mobike User Portrait Analysis",
+    "imagePath": "/projectImages/Mobike.png",
     "tools": ["Python", "Pandas", "Matplotlib"],
-    "description": "This is a portion of the final deliverable for my Spring 2021 DIIG (Duke Impact Investing Group) Project. That semester, I conducted data analysis for a housing startup along with a small team. These slides consist of my portion of the originally larger slide deck, and were presented to individuals within the startup. I completed all analysis shown in the slides.",
+    "description": "This is a Business Analysis Project for drawing the protrait of Mobike.",
     "links": {
-      "Slides": "https://github.com/evanglas/DIIG-S21-Slides/blob/main/Final%20Deliverable.pdf"
-    }
-  },
-  "customer1": {
-    "name": "Customer Analysis",
-    "imagePath": "/projectImages/customer.PNG",
-    "tools": ["Python", "Pandas", "Matplotlib"],
-    "description": "This is a slide deck I presented Spring semester 2021 for a club's onboarding process. I used this deck to present the results of my data analysis on a mock data set of customer histories for a credit card company.",
-    "links": {
-      "Slides": "https://github.com/evanglas/DIIG-S21-Slides/blob/main/DIIG%20Challenge.pdf"
-    }
-  },
-  "msong": {
-    "name": "ECE 280 MATLAB Song",
-    "imagePath": "/projectImages/msong.PNG",
-    "tools": ["MATLAB"],
-    "description": "This is a song I made in MATLAB for an ECE 280 (Signals and Systems) class project. I recreated the first 40 seconds of \"The Swan\" using only elementary signals and some signal processing",
-    "links": {
-      "GitHub": "https://github.com/evanglas/Class-Projects/tree/master/ECE%20280%20Song"
-    }
-  },
-  "dmos": {
-    "name": "Desmos Dabbles",
-    "imagePath": "/projectImages/Pendulum.PNG",
-    "tools": ["Desmos Graphic Calculator"],
-    "description": "A few interesting Desmos graphs I made",
-    "links": {
-      "Pendulum": "https://www.desmos.com/calculator/mxzbzyi2nv",
-      "Spinning Square": "https://www.desmos.com/calculator/rolnkh9pej",
-      "Electric Field Lines": "https://www.desmos.com/calculator/kuhymoqat2"
-    }
-  },
-  "egr1": {
-    "name": "Solar Panel Soiling Sensor",
-    "imagePath": "/projectImages/egr1.jpg",
-    "tools": ["Adobe Illustrator"],
-    "description": "This is the result of my final project for my Introduction to Engineering Class. I worked in a team of four to solve a design problem given to us by an outside client. Our project was to design a soiling sensor, which detected the loss of efficiency of solar panels due to dust/accumulated debris.",
-    "links": {
-      "Poster": "https://github.com/evanglas/Class-Projects/blob/master/EGR%20101%20Final%20Project/Soiling%20Sensor%20Poster.pdf"
-    }
-  },
-  "v1website": {
-    "name": "Legacy Personal Website",
-    "imagePath": "/projectImages/v1website.png",
-    "tools": ["HTML", "CSS", "JavaScript"],
-    "description": "Built my first personal portfolio website using HTML, CSS, and Javascript. Feel free to check out evanglas.com V1!",
-    "links": {
-      "Website": "https://evanglas.github.io",
-      "GitHub": "https://github.com/evanglas/evanglas.github.io"
-    }
-  },
-  "moreMusic": {
-    "name": "MoreMusic Website",
-    "imagePath": "/projectImages/moreMusic.jpg",
-    "tools": ["React", "HTML", "CSS"],
-    "description": "My team and I at HackDuke21 built a website designed to connect instrument donors with underprivledged students. I worked on the frontend which was built with React, HTML, and CSS.",
-    "links": {
-      "Website": "https://moremusic.vercel.app/",
-      "GitHub": "https://github.com/timjang3/hackduke21"
+      "report": "https://drive.google.com/drive/u/0/folders/1cnDHA6C8Ng7pIz0lzX02QeDEfcyWiET9"
     }
   }
 }

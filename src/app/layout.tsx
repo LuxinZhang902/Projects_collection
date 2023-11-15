@@ -5,10 +5,10 @@ import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
+//This is the part that defines the
 export const metadata: Metadata = {
-  title: "Evan Glas",
-  description:
-    "Hi! I’m an incoming MS in Electrical & Computer Engineering (ECE) student and recent ECE, CS graduate at Duke University. I enjoy solving difficult problems and building creative technical solutions. Please feel free to explore some of my past projects!",
+  title: "Luxin Zhang",
+  description: "",
 };
 
 export default function RootLayout({
