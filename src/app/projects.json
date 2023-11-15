@@ -13,7 +13,7 @@
     "name": "Xref - Cross Reference tool for Professor to find students",
     "imagePath": "/projectImages/Xref.png",
     "tools": ["Django", "React", "RestfulAPI", "SQLite Database", "Docker", "Nginx", "HTTPS", "Certbort"],
-    "description": "Led a team of 5 to build Xref, which is a cross reference platform that helps professors to track students easily, it allows uploading CSV files, manually adding student's information, and searching student based on information.",
+    "description": "Led a team of 5 to build Xref, which is a full-stack cross reference platform that helps professors to track students easily, it allows uploading CSV files, manually adding student's information, and searching student based on information.",
     "links": {
       "GitHub": "https://github.com/LuxinZhang902/Xref",
       "Documentation": "https://github.com/LuxinZhang902/Xref/blob/main/README.md"
@@ -23,7 +23,7 @@
     "name": "MERN Stack ChatGPT Clone",
     "imagePath": "/projectImages/GPT_Clone.png",
     "tools": ["MongoDB", "Express.js", "React.js", "Node.js", "OpenAI API", "RestfulAPI", "Postman"],
-    "description": "Cloned ChatGPT that can summarize, rephrase, and translate the context.",
+    "description": "Cloned ChatGPT using full-stack MERN framework that can summarize, rephrase, and translate the context.",
     "links": {
       "GitHub": "https://github.com/LuxinZhang902/MERN-ChatGPT-clone"
     }
