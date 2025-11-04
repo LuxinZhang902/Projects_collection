@@ -1,136 +1,150 @@
 {
-  "elucidate": {
-    "name": "Elucidate - Duke Generative AI Hackathon",
-    "imagePath": "/projectImages/Generative_AI.jpg",
-    "tools": ["OpenAI API", "Chrome Developer API", "Node.js", "HTML", "CSS"],
-    "description": "Built a a functional Chrome Extension that can offer real values to those learning a new language and those with limited general reading proficiency.",
-    "links": {
-      "GitHub": "https://github.com/LuxinZhang902/Duke-Generative-AI-Hackathon",
-      "Demo": "https://drive.google.com/file/d/1HfHUEJCdbSzjYPXQirbS_wk1x7fzbgA_/view?usp=sharing"
+  "AI Projects": {
+    "elucidate": {
+      "name": "Elucidate - Duke Generative AI Hackathon",
+      "imagePath": "/projectImages/Generative_AI.jpg",
+      "tools": ["OpenAI API", "Chrome Developer API", "Node.js", "HTML", "CSS"],
+      "description": "Built a a functional Chrome Extension that can offer real values to those learning a new language and those with limited general reading proficiency.",
+      "links": {
+        "GitHub": "https://github.com/LuxinZhang902/Duke-Generative-AI-Hackathon",
+        "Demo": "https://drive.google.com/file/d/1HfHUEJCdbSzjYPXQirbS_wk1x7fzbgA_/view?usp=sharing"
+      }
+    },
+    "math585": {
+      "name": "MERN Stack ChatGPT Clone",
+      "imagePath": "/projectImages/GPT_Clone.png",
+      "tools": ["MongoDB", "Express.js", "React.js", "Node.js", "OpenAI API", "RestfulAPI", "Postman"],
+      "description": "Cloned ChatGPT using full-stack MERN framework that can summarize, rephrase, and translate the context.",
+      "links": {
+        "GitHub": "https://github.com/LuxinZhang902/MERN-ChatGPT-clone"
+      }
     }
   },
-  "xref": {
-    "name": "Xref - Cross Reference tool for Professor to find students",
-    "imagePath": "/projectImages/Xref.png",
-    "tools": ["Django", "React", "RestfulAPI", "SQLite Database", "Docker", "Nginx", "HTTPS", "Certbort"],
-    "description": "Led a team of 5 to build Xref, which is a full-stack cross reference platform that helps professors to track students easily, it allows uploading CSV files, manually adding student's information, and searching student based on information.",
-    "links": {
-      "GitHub": "https://github.com/LuxinZhang902/Xref",
-      "Documentation": "https://github.com/LuxinZhang902/Xref/blob/main/README.md"
+  "Full-stack Web Applications": {
+    "xref": {
+      "name": "Xref - Cross Reference tool for Professor to find students",
+      "imagePath": "/projectImages/Xref.png",
+      "tools": ["Django", "React", "RestfulAPI", "SQLite Database", "Docker", "Nginx", "HTTPS", "Certbort"],
+      "description": "Led a team of 5 to build Xref, which is a full-stack cross reference platform that helps professors to track students easily, it allows uploading CSV files, manually adding student's information, and searching student based on information.",
+      "links": {
+        "GitHub": "https://github.com/LuxinZhang902/Xref",
+        "Documentation": "https://github.com/LuxinZhang902/Xref/blob/main/README.md"
+      }
+    },
+    "note": {
+      "name": "Simple Note",
+      "imagePath": "/projectImages/simpleNote.png",
+      "tools": ["Python", "Django", "React", "RestfulAPI"],
+      "description": "Developed a simple note full-stack web application using Django and React framework.",
+      "links": {
+        "GitHub": "https://github.com/LuxinZhang902/MyNotes_Django-React"
+      }
     }
   },
-  "math585": {
-    "name": "MERN Stack ChatGPT Clone",
-    "imagePath": "/projectImages/GPT_Clone.png",
-    "tools": ["MongoDB", "Express.js", "React.js", "Node.js", "OpenAI API", "RestfulAPI", "Postman"],
-    "description": "Cloned ChatGPT using full-stack MERN framework that can summarize, rephrase, and translate the context.",
-    "links": {
-      "GitHub": "https://github.com/LuxinZhang902/MERN-ChatGPT-clone"
+  "Algorithms": {
+    "camera": {
+      "name": "Camera Algorithms - Intern at Vivo as a Software Engineer",
+      "imagePath": "/projectImages/vivo.png",
+      "tools": ["Python", "PyTorch", "HED", "Gauss Blur Algorithm", "Sobel Algorithm", "Laplacian Algorithm"],
+      "description": "This is my internship report at Vivo, where I was in a Software Engineer position and built the platform for camera's automation testing and implemented several carema algorithms.",
+      "links": {
+        "report": "https://drive.google.com/file/d/1c3RWb1FtcE1g08aj0RhVG1ZY_1RZggTo/view?usp=sharing"
+      }
     }
   },
-  "eceRISC": {
-    "name": "RISC Game",
-    "imagePath": "/projectImages/RISC.png",
-    "tools": ["Java", "JavaFX", "Scene Builder", "CI/CD"],
-    "description": "Built a full-stack strategy game that allows multiple players play together.",
-    "links": {
-      "GitLab": "https://gitlab.oit.duke.edu/lz211/ece651_riscgame",
-      "GitHub": "https://drive.google.com/file/d/1_fmmPCbS2iGBF_B4opu26KP-pqDhdpGI/view?usp=sharing"
+  "Neural Network & Statistics": {
+    "RNN-stock": {
+      "name": "Neural Network to Predict Survival with Titantic",
+      "imagePath": "/projectImages/Titanic-NN.png",
+      "tools": [
+        "Python",
+        "Neural Network"
+      ],
+      "description": "Predicted the survival factors(passanger id, name, cabin, fare, etc.) of Titanic with Neural Network.",
+      "links": {
+        "report": "https://drive.google.com/file/d/1x0zYzKgLPDJEAKzT0iQLyS-uBEluCNqB/view?usp=sharing"
+      }
+    },
+    "penalizedRegression": {
+      "name": "Penalized Regression with the Ames Housing Data",
+      "imagePath": "/projectImages/PenalizedRegression.png",
+      "tools": ["LASSO model", "Elastic Net model", "Ridge Regression model"],
+      "description": "Found the best tuning parameter values through cross-validation and display these values and make prediction on the testing data, report the RMSE and the Coefficient of Determination R2",
+      "links": {
+        "report": "https://drive.google.com/file/d/18hBR2wvSPN-QXUtgmls4AY6DzyPB9sW7/view?usp=sharing"
+      }
+    },
+    "randomForest": {
+      "name": "Random Forest with the Spam Data",
+      "imagePath": "/projectImages/RandomForest.png",
+      "tools": ["R", "Random Forest"],
+      "description": "Split the data randomly into training (75%) and testing (25%), first build the best random forest to predict Spam e-mails using the training data, then use the out-of-bag (OOB) data to measure its performance, and then use this random forest model to predict whether each e-mail in the testing data is Spam or not.",
+      "links": {
+        "report": "https://drive.google.com/file/d/19uhQIrPTgGVEX4_BxmxbecVloiPwaaI5/view?usp=sharing"
+      }
+    },
+    "logisticRegression": {
+      "name": "Logistic Regression",
+      "imagePath": "/projectImages/LogisticRegression.png",
+      "tools": ["R"],
+      "description": "Used all the other 8 variables to predict the binary dependent variable 'diabetes' telling us whether the subject is diabetic or not (factor with 2 levels: neg and pos). You will split the data into 80% training and 20% testing.",
+      "links": {
+        "report": "https://drive.google.com/file/d/1E2WJEu9ZE_TlU_Adz49lVwNozIML8VFA/view?usp=sharing"
+      }
     }
   },
-  "battleship": {
-    "name": "Battleship Game",
-    "imagePath": "/projectImages/Battleship.png",
-    "tools": ["Java", "JavaFx", "Unit test", "S.O.L.I.D"],
-    "description": "Built a full-stack web application called Battleship Game, which allows two players and one server. Players can move, attack, and perform sonar scan.",
-    "links": {
-      "GitHub": "https://github.com/LuxinZhang902/Battleship_",
-      "Documentation": "https://drive.google.com/file/d/1TRrIZoRgbCauzZ8nuNSCBn52dcAQWAcM/view?usp=sharing"
+  "Game": {
+    "eceRISC": {
+      "name": "RISC Game",
+      "imagePath": "/projectImages/RISC.png",
+      "tools": ["Java", "JavaFX", "Scene Builder", "CI/CD"],
+      "description": "Built a full-stack strategy game that allows multiple players play together.",
+      "links": {
+        "GitLab": "https://gitlab.oit.duke.edu/lz211/ece651_riscgame",
+        "GitHub": "https://drive.google.com/file/d/1_fmmPCbS2iGBF_B4opu26KP-pqDhdpGI/view?usp=sharing"
+      }
+    },
+    "battleship": {
+      "name": "Battleship Game",
+      "imagePath": "/projectImages/Battleship.png",
+      "tools": ["Java", "JavaFx", "Unit test", "S.O.L.I.D"],
+      "description": "Built a full-stack web application called Battleship Game, which allows two players and one server. Players can move, attack, and perform sonar scan.",
+      "links": {
+        "GitHub": "https://github.com/LuxinZhang902/Battleship_",
+        "Documentation": "https://drive.google.com/file/d/1TRrIZoRgbCauzZ8nuNSCBn52dcAQWAcM/view?usp=sharing"
+      }
     }
   },
-  "travelingapp": {
-    "name": "Traveling App",
-    "imagePath": "/projectImages/travelingApp.png",
-    "tools": ["Python", "Pandas", "Matplotlib", "scikit-learn"],
-    "description": "Built a traveling app that tested on IOS The advantage of this application is that it can give you all the recommendations for Restaurants, Attractions, and Hotels separately within one search each. (Search based on Google Map API)    ",
-    "links": {
-      "GitHub": "https://github.com/LuxinZhang902/traveling-app/tree/main"
+  "iOS App": {
+    "travelingapp": {
+      "name": "Traveling App",
+      "imagePath": "/projectImages/travelingApp.png",
+      "tools": ["Python", "Pandas", "Matplotlib", "scikit-learn"],
+      "description": "Built a traveling app that tested on IOS The advantage of this application is that it can give you all the recommendations for Restaurants, Attractions, and Hotels separately within one search each. (Search based on Google Map API)    ",
+      "links": {
+        "GitHub": "https://github.com/LuxinZhang902/traveling-app/tree/main"
+      }
     }
   },
-  "camera": {
-    "name": "Camera Algorithms - Intern at Vivo as a Software Engineer",
-    "imagePath": "/projectImages/vivo.png",
-    "tools": ["Python", "PyTorch", "HED", "Gauss Blur Algorithm", "Sobel Algorithm", "Laplacian Algorithm"],
-    "description": "This is my internship report at Vivo, where I was in a Software Engineer position and built the platform for camera's automation testing and implemented several carema algorithms.",
-    "links": {
-      "report": "https://drive.google.com/file/d/1c3RWb1FtcE1g08aj0RhVG1ZY_1RZggTo/view?usp=sharing"
-    }
-  },
-  "note": {
-    "name": "Simple Note",
-    "imagePath": "/projectImages/simpleNote.png",
-    "tools": ["Python", "Django", "React", "RestfulAPI"],
-    "description": "Developed a simple note full-stack web application using Django and React framework.",
-    "links": {
-      "GitHub": "https://github.com/LuxinZhang902/MyNotes_Django-React"
-    }
-  },
-  "RNN-stock": {
-    "name": "Neural Network to Predict Survival with Titantic",
-    "imagePath": "/projectImages/Titanic-NN.png",
-    "tools": [
-      "Python",
-      "Neural Network"
-    ],
-    "description": "Predicted the survival factors(passanger id, name, cabin, fare, etc.) of Titanic with Neural Network.",
-    "links": {
-      "report": "https://drive.google.com/file/d/1x0zYzKgLPDJEAKzT0iQLyS-uBEluCNqB/view?usp=sharing"
-    }
-  },
-  "penalizedRegression": {
-    "name": "Penalized Regression with the Ames Housing Data",
-    "imagePath": "/projectImages/PenalizedRegression.png",
-    "tools": ["LASSO model", "Elastic Net model", "Ridge Regression model"],
-    "description": "Found the best tuning parameter values through cross-validation and display these values and make prediction on the testing data, report the RMSE and the Coefficient of Determination R2",
-    "links": {
-      "report": "https://drive.google.com/file/d/18hBR2wvSPN-QXUtgmls4AY6DzyPB9sW7/view?usp=sharing"
-    }
-  },
-  "randomForest": {
-    "name": "Random Forest with the Spam Data",
-    "imagePath": "/projectImages/RandomForest.png",
-    "tools": ["R", "Random Forest"],
-    "description": "Split the data randomly into training (75%) and testing (25%), first build the best random forest to predict Spam e-mails using the training data, then use the out-of-bag (OOB) data to measure its performance, and then use this random forest model to predict whether each e-mail in the testing data is Spam or not.",
-    "links": {
-      "report": "https://drive.google.com/file/d/19uhQIrPTgGVEX4_BxmxbecVloiPwaaI5/view?usp=sharing"
-    }
-  },
-  "logisticRegression": {
-    "name": "Logistic Regression",
-    "imagePath": "/projectImages/LogisticRegression.png",
-    "tools": ["R"],
-    "description": "Used all the other 8 variables to predict the binary dependent variable 'diabetes' telling us whether the subject is diabetic or not (factor with 2 levels: neg and pos). You will split the data into 80% training and 20% testing.",
-    "links": {
-      "report": "https://drive.google.com/file/d/1E2WJEu9ZE_TlU_Adz49lVwNozIML8VFA/view?usp=sharing"
-    }
-  },
-  "capCup": {
-    "name": "Ice-cream is Melting before Eating",
-    "imagePath": "/projectImages/capCup.png",
-    "tools": ["Human-centered Interaction", "Prototype", "Empathy Map"],
-    "description": "This is a prototype built in EST106 to solve the problem of ice cream is easy to melt. This idea won the most vote at EST106 class.",
-    "links": {
-      "video": "https://www.youtube.com/watch?v=2Yta2X54TDI",
-      "report": "https://drive.google.com/file/d/1XntQdWhuuAoFNN7FaE9fhZj-oMec7pId/view?usp=sharing"
-    }
-  },
-  "mobike": {
-    "name": "Mobike User Portrait Analysis",
-    "imagePath": "/projectImages/Mobike.png",
-    "tools": ["Python", "Pandas", "Matplotlib"],
-    "description": "This is a Business Analysis Project for drawing the protrait of Mobike.",
-    "links": {
-      "report": "https://drive.google.com/drive/u/0/folders/1cnDHA6C8Ng7pIz0lzX02QeDEfcyWiET9"
+  "Others": {
+    "capCup": {
+      "name": "Ice-cream is Melting before Eating",
+      "imagePath": "/projectImages/capCup.png",
+      "tools": ["Human-centered Interaction", "Prototype", "Empathy Map"],
+      "description": "This is a prototype built in EST106 to solve the problem of ice cream is easy to melt. This idea won the most vote at EST106 class.",
+      "links": {
+        "video": "https://www.youtube.com/watch?v=2Yta2X54TDI",
+        "report": "https://drive.google.com/file/d/1XntQdWhuuAoFNN7FaE9fhZj-oMec7pId/view?usp=sharing"
+      }
+    },
+    "mobike": {
+      "name": "Mobike User Portrait Analysis",
+      "imagePath": "/projectImages/Mobike.png",
+      "tools": ["Python", "Pandas", "Matplotlib"],
+      "description": "This is a Business Analysis Project for drawing the protrait of Mobike.",
+      "links": {
+        "report": "https://drive.google.com/drive/u/0/folders/1cnDHA6C8Ng7pIz0lzX02QeDEfcyWiET9"
+      }
     }
   }
 }

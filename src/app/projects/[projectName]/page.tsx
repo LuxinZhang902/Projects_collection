@@ -8,6 +8,7 @@ import { Project } from "../../Project";
 import LinkChip from "./LinkChip";
 
 import { Metadata, ResolvingMetadata } from "next";
+import { notFound } from "next/navigation";
 
 interface ProjectPageProps {
   params: {
@@ -19,7 +20,23 @@ interface ProjectData {
   [key: string]: Project;
 }
 
-const projects: ProjectData = projectData;
+interface CategorizedProjectData {
+  [category: string]: ProjectData;
+}
+
+// Flatten the categorized projects into a single object
+function flattenProjects(categorizedData: CategorizedProjectData): ProjectData {
+  const flattened: ProjectData = {};
+  Object.values(categorizedData).forEach((category) => {
+    Object.entries(category).forEach(([id, project]) => {
+      flattened[id] = project;
+    });
+  });
+  return flattened;
+}
+
+const categorizedProjects: CategorizedProjectData = projectData;
+const projects: ProjectData = flattenProjects(categorizedProjects);
 
 interface ProjectName {
   projectName: string;
@@ -37,22 +54,36 @@ export async function generateMetadata(
   parent: ResolvingMetadata
 ): Promise<Metadata> {
   const id = params.projectName;
+  const project = projects[id];
+
+  if (!project) {
+    return {
+      title: "Project Not Found",
+      description: "The requested project does not exist.",
+    };
+  }
 
   return {
-    title: projects[id].name,
-    description: projects[id].description,
+    title: project.name,
+    description: project.description,
   };
 }
 
 export default function ProjectPage({ params }: ProjectPageProps) {
   const id = params.projectName;
-  const path = projects[id].imagePath;
+  const project = projects[id];
+
+  if (!project) {
+    notFound();
+  }
+
+  const path = project.imagePath;
 
   return (
     <div className="p-1">
-      <title>{projects[id].name}</title>
+      <title>{project.name}</title>
       <div id="title" className="flex flex-row justify-center p-10">
-        <h1 className="text-5xl">{projects[id].name}</h1>
+        <h1 className="text-5xl">{project.name}</h1>
       </div>
       <div id="content-wrapper" className="flex flex-row justify-center">
         <div
@@ -77,16 +108,16 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             className="max-w-[500px] flex flex-col justify-between mx-5"
           >
             <h2 className="text-center text-3xl pb-4">Description</h2>
-            <p className="px-2">{projects[id].description}</p>
+            <p className="px-2">{project.description}</p>
             <h2 className="text-center text-3xl py-2">Tools Used</h2>
             <div id="tools" className="flex flex-row flex-wrap">
-              {projects[id].tools.map((tool: string) => (
+              {project.tools.map((tool: string) => (
                 <TechChip key={tool} name={tool} />
               ))}
             </div>
             <h2 className="text-center text-3xl py-2">Links</h2>
             <div id="tools" className="flex flex-row flex-wrap justify-around">
-              {Object.entries(projects[id].links).map(([linkName, link]) => (
+              {Object.entries(project.links).map(([linkName, link]) => (
                 <a key={linkName} href={link} target="_blank">
                   <LinkChip name={linkName} />
                 </a>
