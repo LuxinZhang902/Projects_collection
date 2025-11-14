@@ -137,7 +137,7 @@ export default function Home() {
           <hr className={`border-2 w-full my-1 ${
             isDarkMode ? 'border-white' : 'border-black'
           }`} />
-          Hi! I'm an MEng in Electrical & Computer Engineering (ECE) student at Duke. 
+          Hi! I&apos;m an MEng in Electrical & Computer Engineering (ECE) student at Duke. 
           I am focused on full-stack development, web application development, and I also have experience
           in image algorithms(clarity, sharpness, noise), and AI algorithms. I enjoy exploring cutting-edge technologies!
           Please feel free to explore some of my past projects!
