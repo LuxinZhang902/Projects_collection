@@ -32,5 +32,8 @@
   },
   "devDependencies": {
     "@types/gtag.js": "^0.0.12"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
