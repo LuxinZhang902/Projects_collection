@@ -1,10 +1,74 @@
 {
   "AI Projects": {
+    "energeticgoose": {
+      "name": "Energetic Goose - AI-powered on-chain invoice financing platform",
+      "imagePath": "/projectImages/energetic goose screenshot.png",
+      "tools": [
+        "Centrifug",
+        "JavaScript",
+        "TypeScript",
+        "CSS",
+        "Fine-tuned AI Model",
+        "Ollama"
+      ],
+      "description": "Energetic Goose is an on-chain treasury and liquidity platform that tokenizes energy invoices into digital assets, uses AI for automated underwriting, and enables instant global payments and yield optimization through blockchain-based stablecoin finance.",
+      "links": {
+        "GitHub": "https://github.com/mochiyaki/energeticgoose",
+        "Demo": "https://drive.google.com/drive/folders/161-xAW-2Q7LDVXNi-Re-cBdM9Xmv8BvV?dmr=1&ec=wgc-drive-hero-goto"
+      }
+    },
+    "durin": {
+      "name": "Durin - Global cross-border credit and underwriting platform.",
+      "imagePath": "/projectImages/Durin.png",
+      "tools": [
+        "FastAPI",
+        "React",
+        "OpenAI GPT-4 (AI/LLM)",
+        "NetworkX (Graph Analysis)",
+        "SQLAlchemy + SQLite (Database)"
+      ],
+      "description": "Durin is a global risk-hedging and underwriting platform that connects users’ verified financial data worldwide to build U.S.-equivalent credit profiles, enabling cross-border credit evaluation and compliance-driven underwriting for digital banks.",
+      "links": {
+        "GitHub": "https://github.com/LuxinZhang902/Durin",
+        "Demo": "https://drive.google.com/file/d/12HbnhyENlHm2mMVqW9bUzIUEGEKTdGSO/view?usp=drive_linkw"
+      }
+    },
+    "saferun": {
+      "name": "SafeRun - visualizes cyber threats through animated AI guardians.",
+      "imagePath": "/projectImages/saferun.jpg",
+      "tools": [
+        "Daytona API",
+        "OpenAI API",
+        "PostgreSQL",
+        "OpenAI GPT-4 (AI/LLM)"
+      ],
+      "description": "SafeRun transforms traditional cybersecurity dashboards into living, story-driven experiences. It visualizes real-time threats through animated AI guardians — from calm cats to defensive mecha dogs — blending game design with serious security analytics. By turning complex data into intuitive motion and narrative, SafeRun makes cyber defense both clear and captivating.",
+      "links": {
+        "GitHub": "https://github.com/LuxinZhang902/SafeRun",
+        "Demo": "https://www.youtube.com/watch?v=_7NngZnz0HM"
+      }
+    },
+    "memora": {
+      "name": "SafeRun - Ask your life, get the proof",
+      "imagePath": "/projectImages/Memora.png",
+      "tools": [
+        "Tailwind CSS",
+        "Elasticsearch",
+        "Firework API",
+        "OpenAI GPT-4 (AI/LLM)",
+        "ElevenLabs API"
+      ],
+      "description": "Memora lets you ask any life-admin question by voice and get a concise answer plus the exact proof (PDFs, photos, notes). It highlights the supporting snippet, shows evidence thumbnails, and can set follow-ups (e.g., reminders before expiration). All data stays private by default.",
+      "links": {
+        "GitHub": "https://github.com/LuxinZhang902/Memora",
+        "Demo": "https://www.youtube.com/watch?v=wZTok2mu7Yw"
+      }
+    },
     "elucidate": {
-      "name": "Elucidate - Duke Generative AI Hackathon",
+      "name": "Elucidate - Real-time Translation Chrome Extension based on knowledge level",
       "imagePath": "/projectImages/Generative_AI.jpg",
       "tools": ["OpenAI API", "Chrome Developer API", "Node.js", "HTML", "CSS"],
-      "description": "Built a a functional Chrome Extension that can offer real values to those learning a new language and those with limited general reading proficiency.",
+      "description": "Built a functional Chrome Extension that can offer real values to those learning a new language and those with limited general reading proficiency.",
       "links": {
         "GitHub": "https://github.com/LuxinZhang902/Duke-Generative-AI-Hackathon",
         "Demo": "https://drive.google.com/file/d/1HfHUEJCdbSzjYPXQirbS_wk1x7fzbgA_/view?usp=sharing"
@@ -13,18 +77,35 @@
     "math585": {
       "name": "MERN Stack ChatGPT Clone",
       "imagePath": "/projectImages/GPT_Clone.png",
-      "tools": ["MongoDB", "Express.js", "React.js", "Node.js", "OpenAI API", "RestfulAPI", "Postman"],
+      "tools": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "OpenAI API",
+        "RestfulAPI",
+        "Postman"
+      ],
       "description": "Cloned ChatGPT using full-stack MERN framework that can summarize, rephrase, and translate the context.",
       "links": {
         "GitHub": "https://github.com/LuxinZhang902/MERN-ChatGPT-clone"
       }
     }
   },
-  "Full-stack Web Applications": {
+  "Full-stack Web Application": {
     "xref": {
       "name": "Xref - Cross Reference tool for Professor to find students",
       "imagePath": "/projectImages/Xref.png",
-      "tools": ["Django", "React", "RestfulAPI", "SQLite Database", "Docker", "Nginx", "HTTPS", "Certbort"],
+      "tools": [
+        "Django",
+        "React",
+        "RestfulAPI",
+        "SQLite Database",
+        "Docker",
+        "Nginx",
+        "HTTPS",
+        "Certbort"
+      ],
       "description": "Led a team of 5 to build Xref, which is a full-stack cross reference platform that helps professors to track students easily, it allows uploading CSV files, manually adding student's information, and searching student based on information.",
       "links": {
         "GitHub": "https://github.com/LuxinZhang902/Xref",
@@ -45,7 +126,14 @@
     "camera": {
       "name": "Camera Algorithms - Intern at Vivo as a Software Engineer",
       "imagePath": "/projectImages/vivo.png",
-      "tools": ["Python", "PyTorch", "HED", "Gauss Blur Algorithm", "Sobel Algorithm", "Laplacian Algorithm"],
+      "tools": [
+        "Python",
+        "PyTorch",
+        "HED",
+        "Gauss Blur Algorithm",
+        "Sobel Algorithm",
+        "Laplacian Algorithm"
+      ],
       "description": "This is my internship report at Vivo, where I was in a Software Engineer position and built the platform for camera's automation testing and implemented several carema algorithms.",
       "links": {
         "report": "https://drive.google.com/file/d/1c3RWb1FtcE1g08aj0RhVG1ZY_1RZggTo/view?usp=sharing"
@@ -56,10 +144,7 @@
     "RNN-stock": {
       "name": "Neural Network to Predict Survival with Titantic",
       "imagePath": "/projectImages/Titanic-NN.png",
-      "tools": [
-        "Python",
-        "Neural Network"
-      ],
+      "tools": ["Python", "Neural Network"],
       "description": "Predicted the survival factors(passanger id, name, cabin, fare, etc.) of Titanic with Neural Network.",
       "links": {
         "report": "https://drive.google.com/file/d/1x0zYzKgLPDJEAKzT0iQLyS-uBEluCNqB/view?usp=sharing"
