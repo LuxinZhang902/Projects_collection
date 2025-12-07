@@ -1,5 +1,48 @@
 {
   "AI Projects": {
+    "buildbenchai": {
+      "name": "BuildBench AI - Make housing affordable by bringing AI-powered cost transparency to construction",
+      "imagePath": "/projectImages/BuildBench AI.png",
+      "tools": ["Apify Actors", "TypeScript", "Groq LLM"],
+      "description": "BuildBench AI's mission is to structurally lower the cost of housing by giving small and mid-size builders the same data and decision tools as the biggest developers—so every new home is designed and built at the lowest safe cost, not the highest guess.",
+      "links": {
+        "Production": "https://bench-build-ai.vercel.app/"
+      }
+    },
+    "patchpilot": {
+      "name": "PatchPilot - Autonomous debugging engineer with Real PRs",
+      "imagePath": "/projectImages/Home Page.png",
+      "tools": [
+        "E2B Sandbox",
+        "GitHub MCP",
+        "Exa MCP",
+        "Groq LLM",
+        "Node.js Agent Runtime",
+        "Next.js Frontend + Express Backend"
+      ],
+      "description": "PatchPilot is an autonomous debugging engineer that runs entirely inside an E2B sandbox. It reads your bug description or stack trace, analyzes your codebase, searches Exa for real-world fixes, generates a patch, validates it by running your tests, and finally opens a production-ready Pull Request through GitHub MCP, everything is all automatically!",
+      "links": {
+        "Project Page": "https://shipyardhq.tech/projects/13c2b438-5c02-4a05-beab-6382a3e9f3dd",
+        "Demo": "https://www.youtube.com/watch?v=8YT_FqrF8IE"
+      }
+    },
+    "autolabdrive": {
+      "name": "AutoLabDrive - Self-Envolving Multi-Agent Autodriviing research syetem",
+      "imagePath": "/projectImages/AutoLabDrive.png",
+      "tools": [
+        "Ddocker",
+        "Fastapi",
+        "Freepik",
+        "Python",
+        "SQLite",
+        "Typescrip"
+      ],
+      "description": "AutoLabDrive is a self-evolving AI co-pilot that analyzes real driving logs, detects scenarios, retrieves and critiques AV research, and overlays the best methods directly on video. Competing agent labs learn from each event, giving engineers a live, ever-improving research engine that reveals what truly works for their data.",
+      "links": {
+        "Project Page": "https://devpost.com/software/autolabdrive",
+        "Demo": "https://www.youtube.com/watch?v=6xLsNgibHQk"
+      }
+    },
     "energeticgoose": {
       "name": "Energetic Goose - AI-powered on-chain invoice financing platform",
       "imagePath": "/projectImages/energetic goose screenshot.png",
