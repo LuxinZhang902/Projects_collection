@@ -103,7 +103,7 @@ export default function Home() {
                   }`}
                 />
               </a>
-              <a href="https://github.com/LuxinZhang902">
+              <a href="https://github.com/luxinlabs">
                 <FontAwesomeIcon
                   icon={faGithub}
                   size="2x"

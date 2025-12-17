@@ -72,7 +72,7 @@
       ],
       "description": "Durin is a global risk-hedging and underwriting platform that connects users’ verified financial data worldwide to build U.S.-equivalent credit profiles, enabling cross-border credit evaluation and compliance-driven underwriting for digital banks.",
       "links": {
-        "GitHub": "https://github.com/LuxinZhang902/Durin",
+        "GitHub": "https://github.com/luxinlabs/Durin",
         "Demo": "https://drive.google.com/file/d/12HbnhyENlHm2mMVqW9bUzIUEGEKTdGSO/view?usp=drive_linkw"
       }
     },
@@ -87,7 +87,7 @@
       ],
       "description": "SafeRun transforms traditional cybersecurity dashboards into living, story-driven experiences. It visualizes real-time threats through animated AI guardians — from calm cats to defensive mecha dogs — blending game design with serious security analytics. By turning complex data into intuitive motion and narrative, SafeRun makes cyber defense both clear and captivating.",
       "links": {
-        "GitHub": "https://github.com/LuxinZhang902/SafeRun",
+        "GitHub": "https://github.com/luxinlabs/SafeRun",
         "Demo": "https://www.youtube.com/watch?v=_7NngZnz0HM"
       }
     },
@@ -103,7 +103,7 @@
       ],
       "description": "Memora lets you ask any life-admin question by voice and get a concise answer plus the exact proof (PDFs, photos, notes). It highlights the supporting snippet, shows evidence thumbnails, and can set follow-ups (e.g., reminders before expiration). All data stays private by default.",
       "links": {
-        "GitHub": "https://github.com/LuxinZhang902/Memora",
+        "GitHub": "https://github.com/luxinlabs/Memora",
         "Demo": "https://www.youtube.com/watch?v=wZTok2mu7Yw"
       }
     },
@@ -113,7 +113,7 @@
       "tools": ["OpenAI API", "Chrome Developer API", "Node.js", "HTML", "CSS"],
       "description": "Built a functional Chrome Extension that can offer real values to those learning a new language and those with limited general reading proficiency.",
       "links": {
-        "GitHub": "https://github.com/LuxinZhang902/Duke-Generative-AI-Hackathon",
+        "GitHub": "https://github.com/luxinlabs/Duke-Generative-AI-Hackathon",
         "Demo": "https://drive.google.com/file/d/1HfHUEJCdbSzjYPXQirbS_wk1x7fzbgA_/view?usp=sharing"
       }
     },
@@ -131,7 +131,7 @@
       ],
       "description": "Cloned ChatGPT using full-stack MERN framework that can summarize, rephrase, and translate the context.",
       "links": {
-        "GitHub": "https://github.com/LuxinZhang902/MERN-ChatGPT-clone"
+        "GitHub": "https://github.com/luxinlabs/MERN-ChatGPT-clone"
       }
     }
   },
@@ -151,8 +151,8 @@
       ],
       "description": "Led a team of 5 to build Xref, which is a full-stack cross reference platform that helps professors to track students easily, it allows uploading CSV files, manually adding student's information, and searching student based on information.",
       "links": {
-        "GitHub": "https://github.com/LuxinZhang902/Xref",
-        "Documentation": "https://github.com/LuxinZhang902/Xref/blob/main/README.md"
+        "GitHub": "https://github.com/luxinlabs/Xref",
+        "Documentation": "https://github.com/luxinlabs/Xref/blob/main/README.md"
       }
     },
     "note": {
@@ -161,7 +161,7 @@
       "tools": ["Python", "Django", "React", "RestfulAPI"],
       "description": "Developed a simple note full-stack web application using Django and React framework.",
       "links": {
-        "GitHub": "https://github.com/LuxinZhang902/MyNotes_Django-React"
+        "GitHub": "https://github.com/luxinlabs/MyNotes_Django-React"
       }
     }
   },
@@ -238,7 +238,7 @@
       "tools": ["Java", "JavaFx", "Unit test", "S.O.L.I.D"],
       "description": "Built a full-stack web application called Battleship Game, which allows two players and one server. Players can move, attack, and perform sonar scan.",
       "links": {
-        "GitHub": "https://github.com/LuxinZhang902/Battleship_",
+        "GitHub": "https://github.com/luxinlabs/Battleship_",
         "Documentation": "https://drive.google.com/file/d/1TRrIZoRgbCauzZ8nuNSCBn52dcAQWAcM/view?usp=sharing"
       }
     }
@@ -250,7 +250,7 @@
       "tools": ["Python", "Pandas", "Matplotlib", "scikit-learn"],
       "description": "Built a traveling app that tested on IOS The advantage of this application is that it can give you all the recommendations for Restaurants, Attractions, and Hotels separately within one search each. (Search based on Google Map API)    ",
       "links": {
-        "GitHub": "https://github.com/LuxinZhang902/traveling-app/tree/main"
+        "GitHub": "https://github.com/luxinlabs/traveling-app/tree/main"
       }
     }
   },
